@@ -1,0 +1,35 @@
+Air Quality Index (AQI) Analysis & Forecasting for Indian Cities
+
+Name: Avijit Mandal
+Course: B.Tech CSE
+Tool Used: Python, Pandas, Matplotlib, Seaborn, Prophet
+
+(1)Objective-
+The objective of this project is to analyze historical air quality data of major Indian cities and forecast future AQI levels using time-series models
+
+(2)Dataset Description-
+The dataset was collected from the Central Pollution Control Board (CPCB) and public repositories. It contains AQI and pollutant data (PM2.5, PM10, NO₂, SO₂, CO, O₃) from 2015 to 2024.
+
+(3)Data Preprocessing-
+The dataset was cleaned, missing values were handled, and the datetime column was converted into time-series format for analysis.
+
+(4)Exploratory Data Analysis-
+Include:
+.AQI Trend Graph
+.Pollutant Distribution Graph
+.Monthly AQI Pattern
+Observation:
+PM2.5 and PM10 were identified as major contributors to air pollution.
+
+(5)Forecasting Methodology-
+Facebook Prophet was used for time-series forecasting due to its ability to handle seasonality and long-term trends effectively.
+
+(6)Results & Forecast-
+Attach:
+delhi_aqi_forecast.png
+delhi_aqi_seasonality.png
+Interpretation:
+The forecast indicates a rising AQI trend with severe pollution during winter months.
+
+(7)Conclusion-
+The study highlights the worsening air quality in Delhi and emphasizes the need for immediate pollution control measures
